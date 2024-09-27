@@ -1,9 +1,20 @@
-h1 {
-    font-size: 25px;
-    color: blue;
+header h1 {
+    font-size: 18px;
+    color: #30A;
 }
 
-p {
-    font-size: 15px;
-    color:green;
+header {
+    background-color: lightblue;
+}
+
+#firstp {
+    color:rgba(255, 0, 200, 0.5);
+}
+
+.bolder{
+    font-weight: bold;
+}
+
+.darker{
+    color: brown;
 }
