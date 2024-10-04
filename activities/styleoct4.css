@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    /*background-color: blue;
+    background-image: url(bg.jpg);*/
+    background: url(bg.jpg) blue;
+
+}
+.list {
+    list-style-image: url(bt.jpg);
+}
+
+header {
+    background: url(flower.jpg) top right no-repeat;
+}
+
+nav a {
+    color: green;
+}
+
+.current {
+    color: gray;
+}
