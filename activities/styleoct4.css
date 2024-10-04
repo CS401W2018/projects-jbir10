@@ -7,11 +7,12 @@ body {
 
 }
 .list {
-    list-style-image: url(bt.jpg);
+    list-style-image: url(favicon.ico) ;
 }
 
 header {
-    background: url(flower.jpg) top right no-repeat;
+    background: url(bt.jpg) top right no-repeat ;
+
 }
 
 nav a {
