@@ -1,0 +1,22 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    background: url(bg.jpg) skyblue;
+
+}
+.list {
+    list-style-image: url(list.ico) ;
+}
+
+header {
+    background: url(lg.jpg) right no-repeat ;
+
+}
+
+nav a {
+    color:purple;
+}
+
+.current {
+    color: red;
+}
