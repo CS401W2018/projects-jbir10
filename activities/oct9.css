@@ -1,0 +1,38 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: aliceblue;
+}
+
+#wrapper {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #FFF;
+    border: thin solid black;
+}
+
+header {
+    background-color: rgb(98, 117, 133);
+    width: 70%;
+    margin: 30px auto;
+    padding: 50px 30px 100px 3px;
+}
+
+figure {
+    border: thin solid #000;
+    width: 292px;
+}
+
+.img {
+    width: 300px;
+}
+
+header h1 {
+    margin-bottom: 0;
+    border: 3px solid red;
+}
+
+nav {
+    background-color: #aaa;
+    height: 200px;
+    margin-top: 40px;
+}
