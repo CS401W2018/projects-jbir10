@@ -90,7 +90,6 @@ footer p {
 footer{
     background: url(lg.jpg) right no-repeat ;
     height: 100px;
-    margin-top: 0 auto;
     border: thin solid red;
     background-clip: content-box;
 }
