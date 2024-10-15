@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aquamarine;
+}
+
+header h1 {
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h1, h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(85, 255, 0);
+    border: thin solid red;
+}
+
+nav {
+    background-color: rgb(88, 255, 116);
+    height: 40px;
+    margin-top: 50px;
+    border: thin solid red;
+}
+
+nav ul {
+    font-family: 'Courier New', Courier, monospace;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav li { 
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+nav a {
+    display: block;
+    padding: 10px 30px;
+    background-color: rgb(4, 183, 61);
+    color: black;
+    border-bottom: thin solid white;
+    float: left;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    color:rgb(238, 69, 69);
+    background-color: rgb(151, 68, 71);
+}
+
+main {
+    padding: 20px;
+    margin: 30px auto;
+    border: thin solid red;
+}
+
+figure {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#cc {
+    width: 250px;
+    border: thin solid black;
+    float: left;
+}
+
+#cc img {
+    width: 250px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.end {
+    clear: both;
+}
+
+footer p {
+    font-style: italic;
+}
+
+footer{
+    background: url(lg.jpg) right no-repeat ;
+    height: 100px;
+    margin-top: 0 auto;
+    border: thin solid red;
+    background-clip: content-box;
+}
+
+.b {
+    font-weight: bold;
+}
+
+#wrapper {
+    width: 600px;
+    margin: 0 auto;
+    background-color: lightgreen;
+    border: thin solid red;
+}
+
+
+
+
