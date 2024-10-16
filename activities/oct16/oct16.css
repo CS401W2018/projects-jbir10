@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(127, 207, 254);
+}
+
+
+header {
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+}
+
+.container {
+background-color: cadetblue;
+padding: 5px;
+display: grid;
+grid-template-columns: 1fr 3fr 1fr;
+grid-template-areas: 
+    "header header  header"
+    "lside  main    rside"
+    "footer footer  footer"
+    ;
+}
+
+.item {
+    background-color: lightblue;
+    border: thin solid black;
+}
+
+.itemA {
+    grid-area: lside;
+}
+
+.itemB {
+    grid-area: rside;
+}
+
+.itemC {
+    grid-area: main;
+}
+
+.itemD {
+    grid-area: header;
+}
+
+.itemE {
+    grid-area: footer;
+}
+
+.itemF {
+    grid-area: main;
+}
