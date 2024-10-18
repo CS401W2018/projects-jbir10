@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    background-color: aliceblue;
+}
+
+.d {
+    display: flex;
+    gap: 5px;
+    justify-content: space-around;
+}
+
+.i {
+    padding: 10px 10px;
+}
+
+.container {
+    display: flex;
+    /*flex-direction: row;
+    flex-wrap: wrap;*/
+    flex-flow: row wrap;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.item {
+    background-color: lightblue;
+    padding: 10px 5px;
+    width: 50px;
+}
+
