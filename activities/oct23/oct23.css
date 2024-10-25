@@ -16,6 +16,7 @@ header h1 {
 nav {
     background-color: rgb(172, 234, 172);
     display: flex;
+    justify-content: space-around;
 }
 
 nav a {
@@ -27,6 +28,10 @@ nav a {
 
 nav a:hover {
     background-color: aquamarine;
+}
+
+.row {
+    display: block;
 }
 
 .row {
@@ -43,4 +48,10 @@ nav a:hover {
 
 .card img {
     width: 100%;
+}
+
+@media screen and(max-width:800px){
+    body {
+        background-color: beige;
+    }
 }
