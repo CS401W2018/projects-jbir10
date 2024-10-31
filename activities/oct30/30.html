@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+</head>
+<body>
+    <header>
+        <h1>My class schedule</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Gallery</a>
+        <a href="#">Contact</a>
+        <a href="#">Help</a>
+    </nav>
+    <main>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th colspan="5">Information Technology</th>
+                </tr>
+                <tr>
+                    <th>Dept.</th>
+                    <th>Number</th>
+                    <th>Time</th>
+                    <th>Location</th>
+                    <th>Credits</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th colspan="5">Information Technology</th>
+                </tr>
+                <tr>
+                    <td>IT</td>
+                    <td>240</td>
+                    <td>11AM</td>
+                    <td rowspan="2">P3</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>IT</td>
+                    <td>240</td>
+                    <td>12PM</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <th colspan="4">Computer Science </th>
+                </tr>
+                <tr>
+                    <td>CS</td>
+                    <td>210</td>
+                    <td>2PM</td>
+                    <td>P1</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>IT</td>
+                    <td>211</td>
+                    <td>12PM</td>
+                    <td>P2</td>
+                    <td>3</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4" id="total-credits">Total Credits</td>
+                    <td headers="total-credits">12</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+    <footer>
+        <p>&copy; 2024 Jasveen Bir</p>
+    </footer>
+</body>
+</html>
