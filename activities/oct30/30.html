@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tables</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <header>
@@ -17,7 +18,7 @@
         <a href="#">Help</a>
     </nav>
     <main>
-        <table border="1">
+        <table class="schedule">
             <thead>
                 <tr>
                     <th colspan="5">Information Technology</th>
@@ -48,7 +49,7 @@
                     <td>3</td>
                 </tr>
                 <tr>
-                    <th colspan="4">Computer Science </th>
+                    <th colspan="5">Computer Science </th>
                 </tr>
                 <tr>
                     <td>CS</td>
@@ -72,6 +73,17 @@
                 </tr>
             </tfoot>
         </table>
+
+        <h2>Engagement Questions</h2>
+        <p>Why don't we use the border property?<br>
+        CSS handles borders for cleaner, flexible styling.
+        </p>
+        <p>What is the easiest way to color every other row a different color?<br>
+        The easiest way is to use the CSS nth-child selector
+        </p>
+        <p>When should we use a table?<br>
+        Use tables for structured, row-and-column data.
+        </p>
     </main>
     <footer>
         <p>&copy; 2024 Jasveen Bir</p>
