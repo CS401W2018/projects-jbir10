@@ -11,7 +11,8 @@
         <h1>Form</h1>
     </header>
     <main>
-        <form action="processing.php" method="post">
+        <div id="message"></div>
+        <form action="processing.php" method="post" id="form">
             <fieldset>
                 <legend>Sign Up</legend>
                 <fieldset>
@@ -39,6 +40,10 @@
                     <div class="form-row">
                         <label for="dateInput">Birthdate: </label>
                         <input type="date" name="birthdate" id="dateInput">
+                    </div>
+                    <div class="form-row">
+                        <label for="age">Age: </label>
+                        <input type="number" name="age" id="age">
                     </div>
                     <div class="check-row">
                         <div class="spacer">Gender:</div>
@@ -118,5 +123,6 @@
     <footer>
         <p>&copy; 2024 Jasveen Bir</p>
     </footer>
+    <script src="form.js"></script>
 </body>
 </html>
