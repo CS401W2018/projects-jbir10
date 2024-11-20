@@ -1,0 +1,23 @@
+header {
+    text-align: center;
+    background-color: beige;
+}
+
+header h1 {
+    margin: 0;
+}
+
+body {
+    text-align: justify;
+    background-color: blanchedalmond;
+}
+
+#m{
+    text-align: center;
+}
+
+footer {
+    background-color: beige;
+    margin: 20px;
+    text-align: center;
+}
