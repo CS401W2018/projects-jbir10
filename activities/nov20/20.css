@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+    display: block;
+    padding: 10px;
+    color: aquamarine;
+    background-color: blue;
+    width: 110px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 1.5s ease-in-out;
+    transition-delay: 1s;
+}
+
+.btn:hover {
+    background-color: lightblue;
+}
+
+#byuh {
+    width: 350px;
+    margin: 0;
+    border: thin solid black;
+    box-shadow: 5px 5px 3px rgba(200, 200, 200, 0.5);
+    transform: rotate(8deg)
+}
+
+#byuh img {
+    width: 100%;
+}
+
+video {
+    width: 350px;
+    margin: 0;
+}
