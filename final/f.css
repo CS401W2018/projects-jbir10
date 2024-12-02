@@ -4,12 +4,14 @@ body {
     padding: 0;
     line-height: 1.6;
 }
+
 header {
     background: #4CAF50;
     color: white;
     text-align: center;
     padding: 20px;
 }
+
 header h1 {
     margin: 0;
 }
@@ -36,13 +38,16 @@ img {
     max-width: 100%;
     height: auto;
     display: block;
+    border: thin solid black;
 }
+
 footer {
     text-align: center;
     background: #333;
     color: white;
     padding: 20px;
 }
+
 @media (max-width: 600px) {
     nav {
         flex-direction: column;
