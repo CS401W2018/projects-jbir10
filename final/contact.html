@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
-    <link rel="stylesheet" href="f.css">
+    <link rel="stylesheet" href="form.css">
 </head>
 <body>
     <header>
@@ -19,10 +19,58 @@
         <a href="contact.html" class="active">Contact Me</a>
     </nav>
     <main>
-
+        <h2>Contact form</h2>
+        <div id="message"></div>
+        <form action="processing.php" method="post" id="form">
+            <fieldset>
+                <legend>Let us know your thoughts</legend>
+                    <div class="form-row">
+                        <label for="fname">First Name: </label>
+                        <input type="text" name="fname" id="fname" placeholder="First Name">
+                    </div>
+                    <div class="form-row">
+                        <label for="lname">Last Name: </label>
+                        <input type="text" name="lname" id="lname" placeholder="Last Name">
+                    </div>
+                    <div class="form-row">
+                        <label for="phInput">Phone number: </label>
+                        <input type="tel" name="ph" id="phInput" placeholder="eg. 808 129 1234">
+                    </div>
+                    <div class="form-row">
+                        <label for="emailInput">Email: </label>
+                        <input type="email" name="email" id="emailInput" placeholder="example@email.com">
+                    </div>
+                    <div class="form-row">
+                        <label for="fav">Which place impressed you the most in this blog?</label>
+                        <select name="fav" id="fav">
+                            <option value="fj">Fiji</option>
+                            <option value="hi">Hawaii</option>
+                            <option value="wa">Seattle</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <label for="c1">What's your favourite place to visit?</label>
+                        <textarea name="c1" id="c1"></textarea>
+                    </div>
+                    <div class="form-row">
+                        <label for="c2">Leave a comment.</label>
+                        <textarea name="c2" id="c2"></textarea>
+                    </div>
+                    <br>
+                    <div class="check-row">
+                        <div class="spacer"></div>
+                        <label><input type="checkbox" name="com" value="com" >If you would like to be notified of my next travel blog.</label>
+                    </div>
+                
+                <div class="form-row">
+                    <div class="spacer"></div>
+                    <input type="submit" value="Submit">
+                </div>
+            </fieldset>
+        </form>
     </main>
     <footer>
-        <p></p>
+        <p>&copy; 2024 Jasveen Bir</p>
     </footer>
 </body>
 </html>
