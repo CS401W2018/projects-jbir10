@@ -9,15 +9,14 @@ document.querySelector("form").addEventListener("submit", function (event) {
     const c2= document.getElementById("c2").value;
     const com= document.querySelector("input[name='com']").checked;
     
-    if (!firstName || !lastName) {
+    if (!fname || !lname) {
         alert("Please provide your full name.");
         return;
     }
 
     const formData = {
-        firstName: firstName,
-        lastName: lastName,
-        com: com,
+        fname: fname,
+        lname: lname,
     };
 
     const xhr = new XMLHttpRequest();
