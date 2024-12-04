@@ -2,7 +2,7 @@ document.querySelector("form").addEventListener("submit", function (event) {
     event.preventDefault(); 
     const fname= document.getElementById("fname").value;
     const lname= document.getElementById("lname").value;
-    const phone= document.getElementById("phInput").value;
+    const ph= document.getElementById("phInput").value;
     const email= document.getElementById("emailInput").value;
     const fav= document.getElementById("fav").value;
     const c1= document.getElementById("c1").value;
