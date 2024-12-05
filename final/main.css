@@ -41,6 +41,10 @@ img {
     border: thin solid black;
 }
 
+figcaption {
+    color: rgba(0, 0, 0, 0.4);
+}
+
 footer {
     text-align: center;
     background: #333;
