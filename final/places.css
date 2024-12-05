@@ -44,13 +44,15 @@ main h4 {
     gap: 5px;
 }
 aside {
-    width: 40%;
+    width: 30%;
     padding: 10px;
+    text-align: justify;
 }
 
 main {
-    width: 60%;
+    width: 70%;
     padding: 10px;
+    text-align: justify;
 }
 
 img {

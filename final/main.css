@@ -33,6 +33,9 @@ nav a {
 nav a:hover, nav a.active {
     background: #4CAF50;
 }
+main {
+    text-align: justify;
+}
 
 img {
     max-width: 100%;
