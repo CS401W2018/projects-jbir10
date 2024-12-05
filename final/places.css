@@ -55,6 +55,9 @@ main {
 img {
     height: 200px;
 }
+figcaption {
+    color: rgba(0, 0, 0, 0.4);
+}
 
 .cards {
     display: flex;
@@ -70,23 +73,23 @@ footer {
 @media (max-width: 700px) {
     nav {
         flex-direction: column;
-        text-align: center;
+        text-align: left;
     }
     .cards {
-        display: flex;
-        flex-flow: column wrap;
+        flex-direction: column;
     }
-
     main h4 {
         text-align: center;
     }
     .side{
-        display: flex;
-        flex-flow: column wrap;
-
+        flex-direction: column;
     }
     aside {
         order: 1;
+        width: 100%;
+    }
+    main {
+        width: 100%;
     }
 
 }

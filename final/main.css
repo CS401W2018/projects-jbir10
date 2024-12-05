@@ -55,18 +55,6 @@ footer {
 @media (max-width: 600px) {
     nav {
         flex-direction: column;
-        text-align: center;
-    }
-
-    .form-row, .check-row {
-        flex-direction: column;
-    }
-
-    .form-row label {
-        text-align: left;
-    }
-
-    .spacer {
         text-align: left;
     }
 
