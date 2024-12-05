@@ -41,14 +41,15 @@ main h4 {
 .side {
     display: flex;
     padding: 10px;
+    gap: 5px;
 }
 aside {
-    width: 30%;
+    width: 40%;
     padding: 10px;
 }
 
 main {
-    width: 70%;
+    width: 60%;
     padding: 10px;
 }
 
