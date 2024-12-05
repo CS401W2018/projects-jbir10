@@ -61,7 +61,9 @@ img {
 figcaption {
     color: rgba(0, 0, 0, 0.4);
 }
-
+.ref{
+    color: rgba(0, 0, 0, 0.4);
+}
 .cards {
     display: flex;
     justify-content: center;
