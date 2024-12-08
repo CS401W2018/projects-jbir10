@@ -63,6 +63,9 @@ figcaption {
     text-align: justify;
     font-size: small;
 }
+.pic {
+    width: 270px;
+}
 .ref{
     color: rgba(0, 0, 0, 0.4);
 }
